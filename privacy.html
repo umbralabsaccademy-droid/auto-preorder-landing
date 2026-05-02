@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Auto-PreOrder</title>
+  <meta name="description" content="Privacy Policy for the Auto-PreOrder Shopify app. Learn what data we collect, how we use it, and your rights.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <div class="nav-logo-icon">AP</div>
+        Auto-PreOrder
+      </a>
+      <div class="nav-links">
+        <a href="/#features">Features</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="support.html">Support</a>
+        <a href="https://apps.shopify.com/auto-pre-order" class="btn btn-primary btn-sm nav-cta" target="_blank" rel="noopener">
+          Install Free
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="legal-hero">
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="legal-meta">Effective date: May 2, 2026 &mdash; Last updated: May 2, 2026</p>
+  </div>
+</section>
+
+<!-- Body -->
+<section class="legal-body">
+  <div class="container">
+    <div class="legal-content">
+
+      <div class="notice">
+        <p><strong>Summary:</strong> Auto-PreOrder stores merchant and product data to operate the service. We do <strong>not</strong> collect, store, or process any personal data belonging to your customers. You can request deletion of all your data at any time by uninstalling the app.</p>
+      </div>
+
+      <h2>1. Who we are</h2>
+      <p>Auto-PreOrder ("the App", "we", "us") is a Shopify application that automatically activates pre-order mode on products when their inventory reaches a configurable threshold.</p>
+      <p>The App is operated by an independent developer. For privacy-related enquiries, contact us at: <a href="mailto:cdurbal@gmail.com">cdurbal@gmail.com</a></p>
+
+      <h2>2. Data we collect</h2>
+
+      <h3>2.1 Data collected through Shopify APIs</h3>
+      <p>When you install and use Auto-PreOrder, we access the following data from your Shopify store via the Shopify Admin API:</p>
+      <ul>
+        <li><strong>Shop information:</strong> your store domain (e.g. mystore.myshopify.com), Shopify plan, store locale</li>
+        <li><strong>Product data:</strong> product IDs, variant IDs, inventory item IDs, inventory levels across all locations</li>
+        <li><strong>Product metafields:</strong> we read and write the <code>preorder_active</code> metafield on products to control the storefront display</li>
+        <li><strong>Order data (when approved):</strong> order totals, line item quantities and prices, and order currency — used solely to compute recovered revenue analytics within your dashboard. No customer names, emails, or addresses are accessed.</li>
+      </ul>
+
+      <h3>2.2 Data provided directly by the merchant</h3>
+      <p>Through the App dashboard, you may configure:</p>
+      <ul>
+        <li>Stock threshold (the inventory level that triggers pre-order mode)</li>
+        <li>Pre-order button text and badge text</li>
+        <li>Per-product threshold overrides</li>
+        <li>Global pause preference</li>
+      </ul>
+
+      <h3>2.3 Session and authentication data</h3>
+      <p>To authenticate you as a Shopify merchant, we store:</p>
+      <ul>
+        <li>Your Shopify OAuth access token (encrypted in transit, stored securely)</li>
+        <li>Your Shopify user ID, first name, last name, and email address — used solely for session authentication and are not used for marketing or profiling</li>
+        <li>Session state identifiers</li>
+      </ul>
+      <p>Sessions expire automatically according to Shopify's token lifecycle.</p>
+
+      <h3>2.4 App analytics data</h3>
+      <p>We store pre-order event logs in our database:</p>
+      <ul>
+        <li>Which products entered and exited pre-order mode, and when</li>
+        <li>Aggregated order counts and revenue figures captured during pre-order periods</li>
+      </ul>
+      <p>This data contains no personal information about your customers.</p>
+
+      <h3>2.5 What we do NOT collect</h3>
+      <p>Auto-PreOrder does <strong>not</strong> collect, access, or store:</p>
+      <ul>
+        <li>Customer names, email addresses, phone numbers, or postal addresses</li>
+        <li>Customer payment information</li>
+        <li>Customer browsing or behavioural data</li>
+        <li>Any data not explicitly listed in this policy</li>
+      </ul>
+      <p>This is confirmed by our implementation of Shopify's mandatory GDPR compliance webhooks: when Shopify sends a customer data request or customer deletion request to the App, the App responds that no customer personal data is held.</p>
+
+      <h2>3. How we use your data</h2>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th><th>Legal basis (GDPR)</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Shop domain &amp; settings</td>
+            <td>Identify your store, apply your preferences, operate the service</td>
+            <td>Contract performance</td>
+          </tr>
+          <tr>
+            <td>Product &amp; inventory data</td>
+            <td>Detect stock changes, activate/deactivate pre-order mode</td>
+            <td>Contract performance</td>
+          </tr>
+          <tr>
+            <td>Order revenue data</td>
+            <td>Display recovered revenue analytics in your dashboard</td>
+            <td>Contract performance</td>
+          </tr>
+          <tr>
+            <td>Session &amp; auth tokens</td>
+            <td>Authenticate you securely when you access the dashboard</td>
+            <td>Contract performance</td>
+          </tr>
+          <tr>
+            <td>Error logs (Sentry)</td>
+            <td>Diagnose bugs and maintain service stability</td>
+            <td>Legitimate interest</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>We do not sell your data. We do not use your data for advertising. We do not profile merchants or customers.</p>
+
+      <h2>4. Data processors (sub-processors)</h2>
+      <p>We share data with the following third-party services solely to operate the App:</p>
+      <table>
+        <thead>
+          <tr><th>Service</th><th>Role</th><th>Data shared</th><th>Location</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Fly.io</strong></td>
+            <td>App hosting and database infrastructure</td>
+            <td>All app data (transient in memory, persisted in our SQLite database)</td>
+            <td>CDG region — Paris, France (EU)</td>
+          </tr>
+          <tr>
+            <td><strong>Sentry</strong></td>
+            <td>Error monitoring and crash reporting</td>
+            <td>Error logs, shop domain, product IDs involved in errors</td>
+            <td>United States (Standard Contractual Clauses apply for EU data)</td>
+          </tr>
+          <tr>
+            <td><strong>Shopify</strong></td>
+            <td>E-commerce platform and billing</td>
+            <td>Data accessed via Shopify APIs and stored in Shopify systems</td>
+            <td>Varies (see Shopify's privacy policy)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>For details on their privacy practices:</p>
+      <ul>
+        <li>Fly.io: <a href="https://fly.io/legal/privacy-policy/" target="_blank" rel="noopener">fly.io/legal/privacy-policy</a></li>
+        <li>Sentry: <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">sentry.io/privacy</a></li>
+        <li>Shopify: <a href="https://www.shopify.com/legal/privacy" target="_blank" rel="noopener">shopify.com/legal/privacy</a></li>
+      </ul>
+
+      <h2>5. Data retention</h2>
+      <p>We retain your data for as long as the App is installed on your store:</p>
+      <ul>
+        <li><strong>While the App is installed:</strong> all data listed in Section 2 is retained to operate the service</li>
+        <li><strong>Upon uninstallation:</strong> Shopify sends a <code>shop/redact</code> webhook to the App. All your shop data (settings, product states, analytics) is permanently deleted within 30 days of receiving this webhook.</li>
+        <li><strong>Session tokens:</strong> expire automatically per Shopify's OAuth lifecycle, typically within 24 hours of inactivity</li>
+        <li><strong>Error logs (Sentry):</strong> retained for 90 days per Sentry's default policy</li>
+      </ul>
+
+      <h2>6. Data security</h2>
+      <ul>
+        <li>All data is transmitted over HTTPS/TLS</li>
+        <li>The database is hosted on Fly.io infrastructure in the EU (Paris, CDG region)</li>
+        <li>Shopify access tokens are stored with standard database security controls</li>
+        <li>All Shopify webhook payloads are verified using HMAC-SHA256 signature validation before processing</li>
+      </ul>
+
+      <h2>7. Your rights under GDPR</h2>
+      <p>If you are located in the European Union or European Economic Area, you have the following rights regarding the data we hold about your store:</p>
+      <ul>
+        <li><strong>Right of access:</strong> request a copy of the data we hold about your store</li>
+        <li><strong>Right to erasure:</strong> uninstall the App — this triggers complete data deletion within 30 days. You may also contact us directly.</li>
+        <li><strong>Right to portability:</strong> your product and configuration data is accessible via Shopify's Admin API at any time</li>
+        <li><strong>Right to restriction:</strong> contact us to restrict processing while a dispute is being resolved</li>
+        <li><strong>Right to object:</strong> contact us to object to any processing based on legitimate interest</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at <a href="mailto:cdurbal@gmail.com">cdurbal@gmail.com</a>. We will respond within 30 days.</p>
+
+      <h2>8. California residents (CCPA)</h2>
+      <p>Auto-PreOrder does not sell personal information. We do not share personal information for cross-context behavioural advertising. California residents may contact us at <a href="mailto:cdurbal@gmail.com">cdurbal@gmail.com</a> to exercise their rights under the California Consumer Privacy Act.</p>
+
+      <h2>9. Shopify's mandatory GDPR webhooks</h2>
+      <p>In compliance with Shopify's requirements, the App processes the following mandatory privacy webhooks:</p>
+      <ul>
+        <li><strong>customers/data_request:</strong> when a customer requests their data, we respond that no customer personal data is stored by this App</li>
+        <li><strong>customers/redact:</strong> when a customer requests deletion, we confirm no customer personal data is held</li>
+        <li><strong>shop/redact:</strong> when a merchant uninstalls the App, all associated shop data is deleted</li>
+      </ul>
+
+      <h2>10. Cookies</h2>
+      <p>The App itself (the merchant dashboard within Shopify admin) does not use cookies beyond those required by Shopify's embedded app framework. This landing website does not use any tracking or analytics cookies.</p>
+
+      <h2>11. Children's privacy</h2>
+      <p>The App is intended for use by businesses (Shopify merchants) and is not directed at individuals under the age of 16. We do not knowingly collect data from minors.</p>
+
+      <h2>12. Changes to this policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of the App after changes constitutes acceptance of the updated policy. For significant changes, we will notify merchants via the App dashboard.</p>
+
+      <h2>13. Contact</h2>
+      <p>For any questions about this Privacy Policy or to exercise your data rights:</p>
+      <ul>
+        <li>Email: <a href="mailto:cdurbal@gmail.com">cdurbal@gmail.com</a></li>
+        <li>Response time: within 30 days</li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">
+          <div class="nav-logo-icon">AP</div>
+          Auto-PreOrder
+        </a>
+        <p>Automatic pre-order mode for Shopify stores. Recover lost sales when products sell out.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="https://apps.shopify.com/auto-pre-order" target="_blank" rel="noopener">Install app</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal &amp; Support</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="support.html">Support &amp; FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Auto-PreOrder. All rights reserved.</p>
+      <p>Built for <a href="https://shopify.com" target="_blank" rel="noopener" style="color: #6B7280; text-decoration: underline;">Shopify</a> merchants.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
