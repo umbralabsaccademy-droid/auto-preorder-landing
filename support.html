@@ -245,17 +245,40 @@
 </section>
 
 <!-- Contact -->
-<section class="section-sm" style="background: var(--bg-subtle); border-top: 1px solid var(--border);">
+<section class="section" style="background: var(--bg-subtle); border-top: 1px solid var(--border);">
   <div class="container">
-    <div class="section-header" style="margin-bottom: 40px;">
+    <div class="section-header" style="margin-bottom: 48px;">
       <h2>Still need help?</h2>
-      <p>Can't find the answer you're looking for? Send us an email and we'll respond within 1–2 business days.</p>
+      <p>Can't find the answer you're looking for? Fill in the support form and we'll get back to you within 1–2 business days.</p>
     </div>
-    <div class="contact-card">
-      <h3>Contact support</h3>
-      <p>Describe your issue and include your store URL and the affected product if relevant. We'll get back to you as soon as possible.</p>
-      <a href="mailto:cdurbal@gmail.com?subject=Auto-PreOrder%20Support">cdurbal@gmail.com</a>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 820px; margin: 0 auto;">
+
+      <!-- Google Form -->
+      <div class="contact-card" style="text-align: left;">
+        <div style="font-size: 1.75rem; margin-bottom: 14px;">📋</div>
+        <h3 style="margin-bottom: 8px;">Support form</h3>
+        <p style="margin-bottom: 24px;">Tell us your store URL, plan, and what's happening. We'll reply to your email directly.</p>
+        <a href="https://forms.gle/REPLACE_WITH_YOUR_FORM_ID" class="btn btn-primary" target="_blank" rel="noopener" style="width: 100%; justify-content: center;">
+          Open support form
+        </a>
+      </div>
+
+      <!-- Email fallback -->
+      <div class="contact-card" style="text-align: left;">
+        <div style="font-size: 1.75rem; margin-bottom: 14px;">✉️</div>
+        <h3 style="margin-bottom: 8px;">Email us directly</h3>
+        <p style="margin-bottom: 24px;">Prefer email? Write to us directly. Include your store URL and a description of the issue.</p>
+        <a href="mailto:cdurbal@gmail.com?subject=Auto-PreOrder%20Support" class="btn btn-outline" style="width: 100%; justify-content: center;">
+          cdurbal@gmail.com
+        </a>
+      </div>
+
     </div>
+
+    <p class="text-center" style="margin-top: 28px; font-size: .875rem; color: var(--text-subtle);">
+      Response time: 1–2 business days &mdash; Priority support for Pro plan subscribers
+    </p>
   </div>
 </section>
 
