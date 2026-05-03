@@ -240,7 +240,7 @@ p  { color: var(--text-muted); }
 }
 .contact-card h3 { color: var(--text); margin-bottom: 10px; }
 .contact-card p  { color: var(--text-muted); margin-bottom: 20px; }
-.contact-card a  { color: var(--primary); font-weight: 600; font-size: 1.0625rem; }
+.contact-card a:not(.btn) { color: #15803D; font-weight: 600; font-size: 1.0625rem; }
 
 /* ── Footer ────────────────────────────────────────────────────────────── */
 .footer {
